@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment_HTML</title>
+</head>
+<body>
+    <header style="text-align: center;"> <h1> HTML Assingment 1 </h1></header>
+     
+        <h3>1.Are the HMTL Tags & elements are the same thing?</h3>
+         <h4>ans:-  NO, both are the diffrent.
+         -Tags are those which comes between an (< >)(angular bracket),and it helps to display our content. <br>
+         -the content between start tag and end tag is called "elements", including attributes and type of tag also.</h4>
+           <br>
+           <hr>
+        <h3>2.what are the the tags and attributes in HTML?</h3>
+         <h4>ans:- -tags are those which comes between an ( < > ) angular tag and helps to display the content in web browser. <br>
+         tags mainly have three main parts: (1)opening tag (2)content (3)closing tag (but some tags are unclosed tags). <br>
+         and it indicates what kind of formatting we want to give to the content (while dispalying on the browser). <br>
+       
+        -actullay,elements have the attributes, it comes into the opnening tag and it helps to change or adjust <br>
+         the behaviour of elements.</h4>
+         <br>
+         <hr>
+         <h3>3.What are the void element in html?with example.</h3>
+         <h4>ans:- an element which is not have any child node is called void element.
+        and its only have start tag, and must not have any end tag.
+        exp:- <!--<input type="text"></input>-->(open code to see examples coz its a comment, ThankYou!) (This is invalid html tag)
+        more exp of void elements :- (open code to see examples coz its a comment, ThankYou!)<!--<area>    <base>   <br>   <col>   <embed>   <hr>   <img>   <link>  --> etc! </h4> <br>
+         <hr>
+
+        <h3>4.what are HTML entities? with example.</h3>
+        <h4>ans:- There are few fix keywords or symbols like:- <,  >,  ",   - etc! So if we type this in html it'll take them as a tag or symbols,
+        so if we want the display the exact thing in browser we need to use HTML entities.
+        exp:-    
+              <table border="">
+               <tr><th>ENTITIES</th>
+                   <th>KEYWORD/SYMBOL</th>
+               </tr>
+
+               <tr><td>1.&lt(open code to see examples coz its a comment, ThankYou!)</td>
+                   <td><</td>
+               </tr>
+               <tr><td>2.&gt(open code to see examples coz its a comment, ThankYou!)</td>
+                <td>></td>
+               </tr>
+               <tr><td>3.&quot(open code to see examples coz its a comment, ThankYou!)</td>
+                   <td>"</td>
+               </tr>
+               <tr><td>4.&ndash(open code to see examples coz its a comment, ThankYou!)</td>
+                    <td>-</td>
+               </tr>
+              </table>
+        
+                 </h4>
+                 <hr>
+        
+
+         <h3>5.What are different types of lists in HTML? With Example.</h3>
+         <h4>ans:- There are three types of list in HTML :- 1.Ordered List 2.Unordered List 3.Description List
+                  
+                    <p>1.Ordered list:- when we want a list in a sequance we use ordered list. <br>
+                         it also provide diffrent diffrent types like:-numbers,Roman Numbers. etc! </p>
+                    <p> example:- 
+                    <ol>   
+                        <li>sequance1</li>
+                        <li>sequance2</li>
+                        <li>sequance3</li>
+                    </ol>
+                    </p>
+                    <p>
+                        2.Unordered List:- it creates an unordered list, but it gives some feature like bullets,circles etc!by default it gives Bullets.
+                        <p>Example:- 
+                            <ul>
+                                <li>test1</li>
+                                <li>test2</li>
+                                <li>test3</li>
+                            </ul>
+                        </p>
+                    </p>
+                    <p>3. Description List:- basically we can say when we want a list within a list that time we use Description list <br>
+                                             there are three tags used in Description list :-dl(descripton list), dt(description term), <br>
+                                             dd(description data),
+
+
+
+                             example:-          <dl>
+                                                <dt>paratha</dt>
+                                                <dd>plain paratha</dd>
+                                                <dd>aalu paratha</dd>
+                                                <dd>paneer paratha</dd>
+                                             </dl>
+                            <p>"So when we want this type of list we use Description List"</p>
+                                            
+                    </p>
+        </h4>          
+        <hr>
+
+       <h4>6.What is the class attribute in HTML? With Example.
+    </h4> ans:- we can say class attribute is a identification of an perticular element. <br>
+                class is useful to select one or multiple elements and can give style to them. <br>
+                we can also group couple of elements with using class attribute. <br>
+                <br>
+                Syntax :- .class="class name"
+                <br>
+                <br>
+                <h2>EXAMPLE (NOTE: OPEN THE CODING SECTION TO SEE THE CODE)</h2> 
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <style>
+                .city {
+                  background-color: rgb(121, 216, 236);
+                  color: white;
+                  border: 2px solid black;
+                  margin: 20px;
+                  padding: 20px;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <div class="city">
+                <h2>Gandhinagar</h2>
+                <p> Gandhinagar is the capital of Gujrat </p>
+                </div> 
+                
+                <div class="city">
+                <h2>Jaipur</h2>
+                <p>Jaipur is the capital of Rajsthan</p>
+                </div>
+                
+                <div class="city">
+                <h2>Mumbai</h2>
+                <p>Mumbai is the capital of Maharastra</p>
+                </div>
+                
+                </body>
+                </html>
+                <br>
+                Explaination:- Here we are created three elements as a city and give diffrent diffrent value to the elements. <br>
+                              then created a class and gave style to element city so , the style we've given to the class will be applied <br>
+                            to all the elements together.
+                
+               <hr>     
+               
+               <h3>
+                Q.7 what is the diffrence between the 'id' attribute and 'class' attribute
+                og HTML elements? with example.
+              </h3>
+              <h4>
+                ans: The major diffrence between id and class attribute is id can't be the
+                same for diffrent diffrent elements but a class can be the same for
+                multiple elements. <br />
+                Syntax :- ID = #id_name { css properties } <br />
+                exp:- &lt !DOCTYPE html &gt <br />
+                &lt html &gt <br />
+                &lt head &gt <br />
+                &lt title &gt id &lt/ title &gt <br />
+                &lt style type ="text/css" &gt #first { <br />
+                background-color : black; <br />
+                padding : 20px; <br />
+                margin-bottom : 20 px ; <br />
+                } #first p, h1 { color : white; } &lt/style&gt <br />
+                &lt/head&gt <br />
+          
+                &lt body &gt &lt div id="first" &gt <br />
+                &ltp&gt Hello This is ID &lt/p&gt &lt&gt ThankYou &lt/h1&gt <br />
+                &lt/div&gt &lt /body &gt &lt /html&gt Syntax of class:- class = .classname
+                css selector{(style)} <br />
+                exp:- exp:- &lt !DOCTYPE html &gt <br />
+                &lt html &gt <br />
+                &lt head &gt <br />
+                &lt title &gt id &lt/ title &gt <br />
+                &lt style type ="text/css" &gt .first{ background-color:blue; } .first{
+                first h1, p{color:white; } } &lt/style&gt <br />
+                &lt /head&gt <br />
+                &lt Body &gt <br />
+                <br />
+                &lt div class ="first" &gt <br />
+                &lth1&gt Hello friends &lt/h1&gt <br />
+                &ltp&gt Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Voluptatibus nihil ad modi eaque laborum aut similique quod alias dolores
+                <br />
+                <br />
+                porro rem ea assumenda voluptatum, maiores eos expedita dignissimos <br />
+                voluptates nostrum.&lt/p&gt <br />
+                &ltp&gt div class ="first"&lt/p&gt &lth1&gt Hello friends &lt/h1&gt <br />
+                &ltp&gt Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Voluptatibus nihil ad modi eaque laborum aut similique quod alias dolores
+                <br />
+                <br />
+                porro rem ea assumenda voluptatum, maiores eos expedita dignissimos <br />
+                voluptates nostrum.&lt/p&gt <br />
+                &ltp&gt div class ="first"&lt/p&gt &lth1&gt Hello friends &lt/h1&gt <br />
+                &ltp&gt Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Voluptatibus nihil ad modi eaque laborum aut similique quod alias dolores
+                <br />
+                <br />
+                porro rem ea assumenda voluptatum, maiores eos expedita dignissimos <br />
+                voluptates nostrum.&lt/p&gt <br />
+                <br />
+                &lt/body&gt <br />
+                &lt/HTML&gt
+              </h4>
+              <br />
+              <hr />
+              <h3>Q. 8 What are the formatting tags in HTML?</h3>
+              <br />
+              <h4>
+                ans: HTML provides so many text formating tags. <br />
+                which is useful for formatting text, like we can give font style, font
+                color, bold, italic etc! <br />
+                we do this formatting using formatting tags in HTML. <br />
+                here is few commanly used formatting tags:- <br />
+                <ol type="1">
+                  <li>&ltb&gt - Bold text</li>
+                  <li>&ltstrong&gt - Important text</li>
+                  <li>&lti&gt - italic text</li>
+                  <li>&ltem&gt - emphasized text</li>
+                  <li>&ltmark&gt - Marked text</li>
+                  <li>&ltsmall&gt - smaller text</li>
+                  <li>&ltdel&gt - deleted text</li>
+                  <li>&ltins&gt - inserted text</li>
+                  <li>&ltsub&gt - subscripted text</li>
+                  <li>&ltsup&gt - superscripted</li>
+                </ol>
+              </h4>
+              <br />
+              <hr />
+              <h3>Q. 9 How is cellpadding diffrent from cellspacing? with example.</h3>
+              <h4>
+                ans : cellpadding basically defines the space between content (text) and
+                the border in cells. <br />
+                and cellspacing defines the space between to diffrent-diffrent cells
+                <br />
+                we can apply this in the &lt table cellpadding="" cellspacing=""&gt <br />
+                exp:- <br />
+                <h3>No formatting table</h3>
+                <table border="">
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>City</th>
+                    <th>Mobile</th>
+                  </tr>
+                  <tr>
+                    <td>Arya</td>
+                    <td>22</td>
+                    <td>M</td>
+                    <td>Delhi</td>
+                    <td>1111</td>
+                  </tr>
+                  <tr>
+                    <td>Arun</td>
+                    <td>23</td>
+                    <td>M</td>
+                    <td>Mumbai</td>
+                    <td>2222</td>
+                  </tr>
+                  <tr>
+                    <td>Raman</td>
+                    <td>24</td>
+                    <td>M</td>
+                    <td>Ahmedabad</td>
+                    <td>3333</td>
+                  </tr>
+                </table>
+                <br />
+          
+                <h3>After applied "10px" cellpadding</h3>
+          
+                <table border="" cellpadding="10px">
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>City</th>
+                    <th>Mobile</th>
+                  </tr>
+                  <tr>
+                    <td>Arya</td>
+                    <td>22</td>
+                    <td>M</td>
+                    <td>Delhi</td>
+                    <td>1111</td>
+                  </tr>
+                  <tr>
+                    <td>Arun</td>
+                    <td>23</td>
+                    <td>M</td>
+                    <td>Mumbai</td>
+                    <td>2222</td>
+                  </tr>
+                  <tr>
+                    <td>Raman</td>
+                    <td>24</td>
+                    <td>M</td>
+                    <td>Ahmedabad</td>
+                    <td>3333</td>
+                  </tr>
+                </table>
+                <br />
+          
+                <h3>After applied "10px" cellspacing</h3>
+          
+                <table border="" cellspacing="10px">
+                  <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>City</th>
+                    <th>Mobile</th>
+                  </tr>
+                  <tr>
+                    <td>Arya</td>
+                    <td>22</td>
+                    <td>M</td>
+                    <td>Delhi</td>
+                    <td>1111</td>
+                  </tr>
+                  <tr>
+                    <td>Arun</td>
+                    <td>23</td>
+                    <td>M</td>
+                    <td>Mumbai</td>
+                    <td>2222</td>
+                  </tr>
+                  <tr>
+                    <td>Raman</td>
+                    <td>24</td>
+                    <td>M</td>
+                    <td>Ahmedabad</td>
+                    <td>3333</td>
+                  </tr>
+                </table>
+              </h4>
+              <br />
+              <hr />
+              <h3>
+                Q. 10 How can we club(merge) to or more rows or columns into single row or
+                column in an HTML Table? with example.
+              </h3>
+              <h4>
+                ans: We can merge to or more rows or columns into single row or column
+                <br />
+                using rowspan and colspan. <br />
+                exp:-
+                <table border="">
+                  <tr>
+                    <th>Header 1</th>
+                    <th colspan="2">Header 2</th>
+                    <th>Header 3</th>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Row 1</td>
+                    <td>Row 2</td>
+                    <td>Row 3</td>
+                    <td>Row 4</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Row 5</td>
+                    <td>Row 6</td>
+                  </tr>
+                  <tr>
+                    <td>Row 7</td>
+                    <td>Row 8</td>
+                    <td rowspan="2">Row 9</td>
+                    <td>Row 10</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Row 11</td>
+                    <td>Row 12</td>
+                  </tr>
+                </table>
+              </h4>
+              <br />
+              <hr />
+              <h3>
+                Q. 11 What is the diffrence between a block level element and inline element?
+              </h3>
+              <br />
+              <h4>
+                ans : A block level element always starts on a new line and it always
+                takes up<br />
+                the full width available. <br />
+                exp:-&ltp&gt, &lth1&gt, &ltdiv&gt tag etc! <br />
+                Inline element doesn't start on a new line. <br />
+                And it takes up only necessory width it required. <br />
+                exp:- &ltspan&gt, &ltstrong&gt, &ltb&gt, &ltbutton&gt, tag etc! <br />
+              </h4>
+              <hr />
+              <h3>Q. 12 How to create a hyperlink in HTML? With example.</h3>
+              <br />
+              <h4>
+                ans : Using anchor &lta&gt tag in HTML we can create a hyperlink. <br />
+                exp:- &lt a href="http//www.google.com"&gt my google &lt/a&gt
+              </h4><br><hr>
+              <h3>Q. 13 What is the use of an iframe tag? With example.</h3><br>
+              <h4>ans : iframe used to display a webpage within the webpage.</h4> <br> <hr>
+          
+              <h3>Q. 14 What is the use of span tag? explain with example.</h3> <br>
+              <h4>ans : Span tag is just similiar to div tag, But div tag is blocklevel element and span tag is inline element. <br>
+              we use span tag to style a perticular part of text, or part of a document or content <br>
+              The span tag is used to wrap the word "highlighted" within the paragraph. <br>
+              exp:- &lt!DOCTYPE html&gt <br>
+              &lthtml lang="en"&gt <br>
+              &lthead&gt<br>
+                &ltmeta charset="UTF-8"&gt <br>
+                &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>
+                &ltstyle&gt<br>
+                 
+                  .highlight {
+                    color: red;<br>
+                    font-weight: bold;<br>
+                  }<br>
+                &lt/style&gt<br>
+                &lttitle&gtExample with &ltspan&gt tag&lt/title&gt<br>
+              &lt/head&gt<br>
+              &ltbody&gt<br>
+              
+               &ltp&gt This is a &ltspan class="highlight"&gt highlighted &lt/span &gt word in a paragraph.&lt/p&gt
+               <br><hr>
+               <h3>Q. 15 how to insert a picture into a background image of a webpage? with example.</h3>
+               <h4>ans: to set a picture in background image we need to declair background attribuite in &ltbody&gt tag.  <br>
+                    then give the path of image and save the file.  
+                    exp:-  &lt body background = "path of img"&gt => Save the File => run on web page.
+                  
+              </h4>
+              <br><hr>
+              <h3>Q.16 How are active links diffrent from normal links?</h3>
+              <h4>ans: active links has some advance and diffrent feature like:- when we click <br>
+                    on the normal link it'll remain the same, But when we click or take curser on <br>
+                    link it'll change the color or highlight itself. it was the basic diffrence <br>
+                    between active and normal links.</h4>
+                     <br><hr>
+               <h3>Q. 17 What are the diffrent trags to separate section of text?</h3>
+               <h4>ans: we separate a section of text in html using &ltbr&gt break tag. <br>
+                  it is used to separate line of text. it breaks the current line, and shift the flow <br>
+                  of the text to a new line, we also use &ltp&gt paragraph tag. this is used to write a paragraph of text</h4>
+                  <br><hr>
+                <h3>Q. 18 What is SVG?</h3>
+                <h4>ans: SVG stands for "Scalable Vector Graphics". and its also a file formate <br>
+                vwe use  SVG files coz => <br>
+                 *can be edited in any text editor. <br>
+                 *SVG are scalable, we can increase or decrease the size but it won't effect thr quality of picture. <br>
+                 *we can also print the SVG file in any resolution without losing the quality of file/iamge. <br>
+                 *SVG's are Zoomable, Zoom it as much as you want but i won't effect the quality again. <br>
+                 *SVG files are pure XML file, means we can easily handle it with HTML and CSS. <br>
+                 *file extension is .svg <br> <hr>
+<h3>19. What is difference between HTML and XHTML ?</h3>
+<h4>Ans : HTML is more lenient in its syntax, while XHTML has a more strict syntax.</h4> <br>
+<hr>
+<h3>20. What are logical and physical tags in HTML ?</h3>
+<h4>Ans : (b) This is a physical tag, which is used to bold the text written between it. <br>
+     (strong) This is a logical tag, which tells the browser that the text is important. <br>
+     (b) This is a physical tag, which is used to bold the text written between it. </h4>
+     <br><hr><hr>
+     
+</body>
+</html>
